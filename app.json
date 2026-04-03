@@ -22,7 +22,9 @@
     "plugins": [
       "expo-router",
       "expo-secure-store",
-      "expo-image-picker"
+      "expo-image-picker",
+      "expo-asset",
+      "expo-font"
     ],
     "extra": {
       "apiUrl": "https://api.crmsunshine.online/api/v1",
