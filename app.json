@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Sunshine OMS",
-    "slug": "sunshine-oms",
+    "slug": "sptpl-oms",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,7 +27,7 @@
     "extra": {
       "apiUrl": "https://api.crmsunshine.online/api/v1",
       "eas": {
-        "projectId": "bf00a657-7926-421a-9079-f3f637cc1e35"
+        "projectId": "6a74d932-c341-4320-8f14-2c72df80444f"
       },
       "router": {
         "origin": false
