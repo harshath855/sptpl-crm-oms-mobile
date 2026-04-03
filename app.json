@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Sunshine OMS",
+    "slug": "sunshine-oms",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "sunshine-oms",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.sptpl.oms"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "apiUrl": "https://api.crmsunshine.online/api/v1",
+      "eas": {
+        "projectId": "bf00a657-7926-421a-9079-f3f637cc1e35"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "harshath855"
+  }
+}
